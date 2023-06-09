@@ -1,0 +1,49 @@
+.Nav{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    width: 100%;
+    padding: 20px;
+}
+
+.NavColored{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(25, 118, 210);
+}
+
+.LogoBox{
+    display: flex;
+    justify-content: center;
+    width: 33%;
+    height: 100%;
+}
+
+.LogoBox a{
+    width: 18%;
+} 
+
+.Logo{
+}
+
+.Links{
+    width: 33%;
+    padding-left: 100px;
+    padding-top: 5px;
+}
+
+.Link{
+    margin-right: 30px;
+}
+
+.Link:hover{
+    color: hotpink;
+}
+
+.Espacamento{
+    height: 100%;
+    width: 33%;
+}

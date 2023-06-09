@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src" : "fastApiProject/main.py",
+      "use" : "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src" : "/(.*)",
+      "dest": "fastApiProject/main.py"
+    }
+  ]
+}

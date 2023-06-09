@@ -1,0 +1,44 @@
+.App{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.Box{
+    height: 50%;
+    padding: 2% 10% 2% 10%;
+    position: relative;
+}
+
+.Row{
+    display: flex;
+    flex-direction: row;
+}
+
+.RowTitle{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.RowButtons{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.Title{
+    font-size: 28px;
+}
+
+.Toastify {
+    position: absolute;
+    z-index: 999999;
+}
+
+.ModalDisciplinas {
+    height: 400px;
+}
+
+
